@@ -1,0 +1,46 @@
+.LoginForm-header{
+    font-size: 16px;
+    background-color: #008fa6;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.LoginForm-form{
+    padding: 10px;
+}
+
+.LoginForm-input{
+    margin-bottom: 10px !important;
+}
+
+.LoginForm-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.LoginForm-error{
+    display: flex;
+    color: red;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.LoginForm-overlay{
+    position: absolute;
+    width: 100%;
+    background-color:rgba(255,255,255,.75);
+    padding-top: 20px;
+    top:0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
