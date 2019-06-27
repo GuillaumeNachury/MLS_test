@@ -1,0 +1,18 @@
+{
+    "ENDPOINT_BASE" : "http://re.jrc.ec.europa.eu",
+    "ENDPOINT_API" : "/pvgis5/",
+    "ENDPOINT_METHODS" : {
+       "PV_PERF_ESTIMATE" : {
+           "name" : "PVcalc.php",
+           "params" : [{"name":"lat","type":"F","required":true},{"name":"lon","type":"F","required":true},{"name":"usehorizon","type":"I","required":false},{"name":"userhorizon","type":"L","required":false},{"name":"raddatabase","type":"T","required":false},{"name":"peakpower","type":"F","required":true},{"name":"pvtechchoice","type":"T","required":false},{"name":"mountingplace","type":"T","required":false},{"name":"loss","type":"F","required":true},{"name":"fixed","type":"I","required":false},{"name":"angle","type":"F","required":false},{"name":"aspect","type":"F","required":false},{"name":"optimalinclination","type":"I","required":false},{"name":"optimalangles","type":"I","required":false},{"name":"inclined_axis","type":"I","required":false},{"name":"inclined_optimum","type":"I","required":false},{"name":"inclinedaxisangle","type":"F","required":false},{"name":"vertical_axis","type":"I","required":false},{"name":"vertical_optimum","type":"I","required":false},{"name":"verticalaxisangle","type":"F","required":false},{"name":"twoaxis","type":"I","required":false},{"name":"outputformat","type":"T","required":false},{"name":"browser","type":"I","required":false}]
+        },
+        "OFFGRID_PERF_ESTIMATE" : {
+            "name" : "SHScalc.php",
+            "params" : [{"name":"lat","type":"F","required":true},{"name":"lon","type":"F","required":true},{"name":"usehorizon","type":"I","required":false},{"name":"userhorizon","type":"L","required":false},{"name":"raddatabase","type":"T","required":false},{"name":"peakpower","type":"F","required":true},{"name":"batterysize","type":"F","required":true},{"name":"cutoff","type":"F","required":true},{"name":"consumptionday","type":"F","required":true},{"name":"angle","type":"F","required":false},{"name":"aspect","type":"F","required":false},{"name":"hourconsumption","type":"L","required":false},{"name":"outputformatchoice","type":"T","required":false},{"name":"browser","type":"I","required":false}]
+        },
+        "MONTHLY_SOLAR_RADIATION" : {
+            "name" : "MRcalc.php",
+            "params" : [{"name":"lat","type":"F","required":true},{"name":"lon","type":"F","required":true},{"name":"usehorizon","type":"I","required":false},{"name":"userhorizon","type":"L","required":false},{"name":"raddatabase","type":"T","required":false},{"name":"startyear","type":"I","required":false},{"name":"endyear","type":"I","required":false},{"name":"horirrad","type":"I","required":false},{"name":"optrad","type":"I","required":false},{"name":"selectrad","type":"I","required":false},{"name":"angle","type":"F","required":false},{"name":"mr_dni","type":"I","required":false},{"name":"d2g","type":"I","required":false},{"name":"avtemp","type":"I","required":false},{"name":"outputformat","type":"T","required":false},{"name":"browser","type":"I","required":false}]
+        }
+    }
+}
